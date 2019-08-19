@@ -8,8 +8,9 @@ import Navbar from "./components/nav-bar/nav-bar";
 const App: React.FC = () => {
   return (
     <div className="App">
+      <Navbar></Navbar>
+
       <header className="App-header">
-        <Navbar></Navbar>
         <img src={logo} className="App-logo" alt="logo" />
         <Button type="primary">Button</Button>
 
