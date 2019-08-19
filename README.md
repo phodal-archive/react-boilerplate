@@ -34,3 +34,4 @@ https://github.com/arackaf/customize-cra
  - React Function-based Component
  - GraphQL Adapter 
  - Analytics with TypeScript: [https://github.com/nfl/react-metrics](https://github.com/nfl/react-metrics)
+ - Fetch data & Loading: [https://www.robinwieruch.de/react-hooks-fetch-data/](https://www.robinwieruch.de/react-hooks-fetch-data/)

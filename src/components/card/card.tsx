@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from 'react';
 
+import useAxios from "../../commons/hooks/use-axios";
+
 function PhdCard() {
   const [count, setCount] = useState(0);
   useEffect(() => {
@@ -9,16 +11,25 @@ function PhdCard() {
     return function cleanup() {
       console.log('cleanup');
     }
-  });
+  }, [count]);
 
   const [isOnline, setIsOnline] = useState(false);
   useEffect(() => {
     console.log('isOnline', isOnline);
   });
+  const [{data, loading, error}, refetch] = useAxios(
+    'https://api.myjson.com/bins/820fc'
+  );
+
+  if (loading) return <p>Loading...</p>
+  if (error) return <p>Error!</p>
 
   return (
     <div className="card">
       Card {count}, {isOnline ? '1' : '0'} -
+      <button onClick={refetch}>refetch</button>
+      <pre>{JSON.stringify(data, null, 2)}</pre>
+
       <button onClick={() => setCount(count + 1)}>
         Click me
       </button>
