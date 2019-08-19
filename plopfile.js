@@ -8,7 +8,7 @@ module.exports = function (plop) {
         }],
         actions: [{
             type: 'add',
-            path: 'src/components/{{name}}/index.tsx',
+            path: 'src/components/{{name}}/{{name}}.tsx',
             templateFile: 'templates/component.hbs'
         }]
     });
@@ -22,7 +22,7 @@ module.exports = function (plop) {
         }],
         actions: [{
             type: 'add',
-            path: 'src/app/{{name}}/index.tsx',
+            path: 'src/pages/{{name}}/{{name}}.tsx',
             templateFile: 'templates/component.hbs'
         }]
     })

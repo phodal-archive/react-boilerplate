@@ -1,16 +1,13 @@
-import * as React from 'react'
-import { createStyles, withStyles, Theme } from '@material-ui/core/styles'
+import React, { Component } from 'react';
 
-const styles = (theme: Theme) => createStyles({
-
-})
-
-class {{pascalCase name}} extends React.Component<any, any> {
+class {{pascalCase name}} extends Component {
   render() {
     return (
-      <div>{{name}}</div>
+      <div className="{{name}}">
+        {{pascalCase name}}
+      </div>
     )
-  }
+  };
 }
 
-export default withStyles(styles)({{pascalCase name}})
+export default {{pascalCase name}};
