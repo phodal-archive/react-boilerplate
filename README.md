@@ -31,4 +31,6 @@ https://github.com/arackaf/customize-cra
 ## Todo
 
  - Parcel.js
- - React Function-based Component 
+ - React Function-based Component
+ - GraphQL Adapter 
+ - Analytics with TypeScript: [https://github.com/nfl/react-metrics](https://github.com/nfl/react-metrics)
