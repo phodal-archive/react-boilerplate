@@ -3,6 +3,7 @@ import {Menu, Icon} from 'antd';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Home from '../../pages/home/home';
 import About from "../../pages/about/about";
+import Contact from "../../pages/contact/contact";
 
 const {SubMenu} = Menu;
 
@@ -27,6 +28,9 @@ class Navbar extends Component {
           </Menu.Item>
           <Menu.Item key="about">
             <Link to="/about"><Icon type="question"/>About</Link>
+          </Menu.Item>
+          <Menu.Item key="contact">
+            <Link to="/contact"><Icon type="contact"/>contact</Link>
           </Menu.Item>
           <SubMenu
             title={
@@ -54,6 +58,7 @@ class Navbar extends Component {
 
         <Route exact path="/" component={Home}/>
         <Route exact path="/about" component={About}/>
+        <Route exact path="/contact" component={Contact}/>
       </Router>
     );
   }
