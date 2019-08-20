@@ -135,6 +135,7 @@ export default function useAxios(config: any, options = {manual: false}) {
     if (!options.manual) {
       executeRequestWithCache(config, dispatch)
     }
+    // eslint-disable-next-line
   }, [JSON.stringify(config), config, options]);
 
   return [
