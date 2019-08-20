@@ -7,16 +7,11 @@ function PhdCard() {
   useEffect(() => {
     // Update the document title using the browser API
     document.title = `You clicked ${count} times`;
-    setIsOnline(count % 2 === 0);
     return function cleanup() {
       console.log('cleanup');
     }
-  }, [count]);
-
-  const [isOnline, setIsOnline] = useState(false);
-  useEffect(() => {
-    console.log('isOnline', isOnline);
   });
+
   const [{data, loading, error}, refetch] = useAxios(
     'https://api.myjson.com/bins/820fc'
   );
@@ -26,7 +21,7 @@ function PhdCard() {
 
   return (
     <div className="card">
-      Card {count}, {isOnline ? '1' : '0'} -
+      Card {count} -
       <button onClick={refetch}>refetch</button>
       <pre>{JSON.stringify(data, null, 2)}</pre>
 

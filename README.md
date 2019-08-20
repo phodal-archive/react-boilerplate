@@ -26,6 +26,11 @@ https://github.com/arackaf/customize-cra
 
  - [Official useContext](https://zh-hans.reactjs.org/docs/hooks-reference.html#usecontext)
  - [Replace Redux state with React Hooks and Context](https://itnext.io/replace-redux-state-with-react-hooks-and-context-7906e0fd5521)
+ - [Multiple Context](https://stackoverflow.com/questions/54119268/how-to-use-react-hooks-context-with-multiple-values-for-providers), Code: https://codesandbox.io/s/zk58011yol
+
+### 中文（Chinese)
+
+ - [在小程序中使用 React with Hooks](https://github.com/remaxjs/remax/issues/1)，可以用于造轮子
 
 ## Library
 
