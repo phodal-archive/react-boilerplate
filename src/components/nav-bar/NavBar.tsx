@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import {Menu, Icon} from 'antd';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import HomePage from '../../pages/home/home-page';
-import AboutPage from "../../pages/about/about-page";
-import TodoPage from "../../pages/todo/todo-page";
+import HomePage from '../../pages/home/HomePage';
+import AboutPage from "../../pages/about/AboutPage";
+import TodoPage from "../../pages/todo/TodoPage";
 
-class Navbar extends Component {
+class NavBar extends Component {
   state = {
     current: 'mail',
   };
@@ -40,4 +40,4 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar;
+export default NavBar;

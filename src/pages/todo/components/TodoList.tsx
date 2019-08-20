@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import Store from "../context";
-import { TodoHeader } from "./todo-header";
+import { TodoHeader } from "./TodoHeader";
 
 export default function TodoList() {
   // @ts-ignore

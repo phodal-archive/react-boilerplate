@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PhdCard from "../../components/card/card";
+import PhdCard from "../../components/card/Card";
 
 class HomePage extends Component {
   render() {

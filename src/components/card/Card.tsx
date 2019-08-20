@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
-import useAxios from "../../commons/hooks/use-axios";
+import useAxios from "../../commons/hooks/useAxios";
 
 function PhdCard() {
   const [count, setCount] = useState(0);

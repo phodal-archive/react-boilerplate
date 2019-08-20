@@ -1,10 +1,10 @@
 import React, {useContext, useReducer} from 'react';
 
-import TodoForm from "./components/todo-form";
-import {usePersistedContext, usePersistedReducer} from "../../commons/hooks/use-persist";
+import TodoForm from "./components/TodoForm";
+import {usePersistedContext, usePersistedReducer} from "../../commons/hooks/usePersist";
 import Store from "./context";
 import reducer from "./reducer";
-import TodoList from "./components/todo-list";
+import TodoList from "./components/TodoList";
 
 function TodoPage() {
   // create a global store to store the state
