@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-boilerplate/static/css/main.ec180272.chunk.css",
+    "main.js": "/react-boilerplate/static/js/main.f81ccb47.chunk.js",
+    "main.js.map": "/react-boilerplate/static/js/main.f81ccb47.chunk.js.map",
+    "runtime~main.js": "/react-boilerplate/static/js/runtime~main.06fa11ef.js",
+    "runtime~main.js.map": "/react-boilerplate/static/js/runtime~main.06fa11ef.js.map",
+    "static/css/2.e8a51740.chunk.css": "/react-boilerplate/static/css/2.e8a51740.chunk.css",
+    "static/js/2.bbec88c3.chunk.js": "/react-boilerplate/static/js/2.bbec88c3.chunk.js",
+    "static/js/2.bbec88c3.chunk.js.map": "/react-boilerplate/static/js/2.bbec88c3.chunk.js.map",
+    "index.html": "/react-boilerplate/index.html",
+    "precache-manifest.c4fa82a391ee2eec1e6fb92d75df6b47.js": "/react-boilerplate/precache-manifest.c4fa82a391ee2eec1e6fb92d75df6b47.js",
+    "service-worker.js": "/react-boilerplate/service-worker.js",
+    "static/css/2.e8a51740.chunk.css.map": "/react-boilerplate/static/css/2.e8a51740.chunk.css.map",
+    "static/css/main.ec180272.chunk.css.map": "/react-boilerplate/static/css/main.ec180272.chunk.css.map"
+  }
+}
