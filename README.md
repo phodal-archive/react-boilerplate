@@ -28,9 +28,10 @@ https://github.com/arackaf/customize-cra
  - [Replace Redux state with React Hooks and Context](https://itnext.io/replace-redux-state-with-react-hooks-and-context-7906e0fd5521)
  - [Multiple Context](https://stackoverflow.com/questions/54119268/how-to-use-react-hooks-context-with-multiple-values-for-providers), Code: https://codesandbox.io/s/zk58011yol
 
-### Form Validate
+### Form 
 
- - [Form Validation with React Hooks](https://itnext.io/form-validation-with-react-hooks-ab0dbba23b9f) 
+ - [Form Validation with React Hooks](https://itnext.io/form-validation-with-react-hooks-ab0dbba23b9f)
+ - [React Reactive Forms](https://github.com/bietkul/react-reactive-form#readme): Angular like reactive forms in React. 
 
 ### 中文（Chinese)
 
@@ -43,6 +44,13 @@ https://github.com/arackaf/customize-cra
  - [Ignite (React Native)](https://github.com/infinitered/ignite)
  - [React Valida Hook](https://github.com/highercomve/react-valida-hook) 
  - [react-hook-form](https://github.com/react-hook-form/react-hook-form)
+ 
+**normal**
+
+ - SEO: [react-helmet](https://github.com/nfl/react-helmet) : A document head manager for React
+ - Animate: [react-motion](https://github.com/chenglou/react-motion) : A spring that solves your animation problems.
+ - CSS in JS: [styled-component](https://github.com/styled-components/styled-components)
+ 
 
 ### Code Generator
 
