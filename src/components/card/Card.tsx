@@ -11,19 +11,19 @@ function PhdCard() {
       console.log('cleanup');
     }
   });
-
-  const [{data, loading, error}, refetch] = useAxios(
-    'https://api.myjson.com/bins/820fc'
-  );
-
-  if (loading) return <p>Loading...</p>
-  if (error) return <p>Error!</p>
+  //
+  // const [{data, loading, error}, refetch] = useAxios(
+  //   'https://api.myjson.com/bins/820fc'
+  //   , {manual: true});
+  //
+  // if (loading) return <p>Loading...</p>
+  // if (error) return <p>Error!</p>
 
   return (
     <div className="card">
       Card {count} -
-      <button onClick={refetch}>refetch</button>
-      <pre>{JSON.stringify(data, null, 2)}</pre>
+      {/*<button onClick={refetch}>refetch</button>*/}
+      {/*<pre>{JSON.stringify(data, null, 2)}</pre>*/}
 
       <button onClick={() => setCount(count + 1)}>
         Click me
