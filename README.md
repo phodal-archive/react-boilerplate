@@ -35,6 +35,33 @@ https://github.com/arackaf/customize-cra
 ## Library
 
  - [Use Hooks: A collection of reusable React Hooks](https://github.com/use-hooks), examples: [react-hooks-axios](https://github.com/use-hooks/react-hooks-axios)
+ - [React Boilerplate](https://github.com/react-boilerplate/react-boilerplate)
+ - [Ignite (React Native)](https://github.com/infinitered/ignite)
+
+### Code Generator
+
+**Light Weight**
+
+ - [generact](https://github.com/diegohaz/generact): Generate React components by replicating your own
+ - [hygen](https://github.com/jondot/hygen) is the simple, fast, and scalable code generator that lives in your project.
+ - [Plop](https://github.com/amwmedia/plop) Micro-generator framework that makes it easy for an entire team to create files with a level of uniformity. 
+
+**Project Level**
+
+ - [nwb](https://github.com/insin/nwb) A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)
+
+#### Plop
+
+ - [plopfile.js](https://gist.github.com/kitze/cb042d76b3195b78283c6250418ec338): A sample plopfile for generating React components and components with containers
+ - [react-generator](https://github.com/bernabe9/react-generator)： Plop generator for React and Redux
+ - [component.jsx.hbs](https://gist.github.com/idan/7a9448d8fee22189b808): with Custom Input
+ - [React Boilerplate](https://github.com/react-boilerplate/react-boilerplate/tree/master/internals/generators)'s Examples
+
+#### nwb
+
+```
+nwb new preact-app my-app
+```                                                                  
 
 ## Todo
 
