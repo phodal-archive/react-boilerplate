@@ -135,7 +135,7 @@ export default function useAxios(config: any, options = {manual: false}) {
     if (!options.manual) {
       executeRequestWithCache(config, dispatch)
     }
-  }, [JSON.stringify(config)]);
+  }, [JSON.stringify(config), config, options]);
 
   return [
     state,
