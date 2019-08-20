@@ -48,6 +48,7 @@ https://github.com/arackaf/customize-cra
 
 **Project Level**
 
+ - [Yeoman Generator](https://yeoman.io) helps you to kickstart new projects, prescribing best practices and tools to help you stay productive.
  - [nwb](https://github.com/insin/nwb) A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)
 
 #### Plop

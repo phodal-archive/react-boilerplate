@@ -8,7 +8,7 @@ export default function TodoForm() {
   // todo item that will be sent to the global store.
   const [todo, setTodo] = useState("");
 
-  function handleTodoChange(e: any) {
+  function handleTodoChange(e: React.ChangeEvent<HTMLInputElement>) {
     setTodo(e.target.value);
   }
 
