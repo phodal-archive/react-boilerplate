@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PhdCard from "../../components/card/card";
 
-class Home extends Component {
+class HomePage extends Component {
   render() {
     return (
       <div className="home">
@@ -12,4 +12,4 @@ class Home extends Component {
   };
 }
 
-export default Home;
+export default HomePage;

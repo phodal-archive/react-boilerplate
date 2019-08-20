@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {Menu, Icon} from 'antd';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import Home from '../../pages/home/home';
-import About from "../../pages/about/about";
-import Contact from "../../pages/contact/contact";
+import HomePage from '../../pages/home/home-page';
+import AboutPage from "../../pages/about/about-page";
+import TodoPage from "../../pages/todo/todo-page";
 
 const {SubMenu} = Menu;
 
@@ -29,8 +29,8 @@ class Navbar extends Component {
           <Menu.Item key="about">
             <Link to="/about"><Icon type="question"/>About</Link>
           </Menu.Item>
-          <Menu.Item key="contact">
-            <Link to="/contact"><Icon type="contact"/>contact</Link>
+          <Menu.Item key="todo">
+            <Link to="/todo"><Icon type="todo"/>Todo</Link>
           </Menu.Item>
           <SubMenu
             title={
@@ -56,9 +56,9 @@ class Navbar extends Component {
           </Menu.Item>
         </Menu>
 
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/about" component={About}/>
-        <Route exact path="/contact" component={Contact}/>
+        <Route exact path="/" component={HomePage}/>
+        <Route exact path="/about" component={AboutPage}/>
+        <Route exact path="/todo" component={TodoPage}/>
       </Router>
     );
   }

@@ -1,9 +1,8 @@
 import React, {useContext, useState} from 'react';
-import Store from "./context";
+import Store from "../context";
 
-export default function Contact() {
-  // @ts-ignore
-  const { dispatch } = useContext(Store);
+export default function TodoForm() {
+  const { dispatch } = useContext(Store) as any;
 
   // Creating a local state to have currently writing
   // todo item that will be sent to the global store.
