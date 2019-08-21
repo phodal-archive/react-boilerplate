@@ -1,3 +1,4 @@
+# React Boilerplate for Study
 
 ## Steps
 
@@ -119,3 +120,8 @@ nwb new preact-app my-app
  - GraphQL Adapter 
  - Analytics with TypeScript: [https://github.com/nfl/react-metrics](https://github.com/nfl/react-metrics)
  - Fetch data & Loading: [https://www.robinwieruch.de/react-hooks-fetch-data/](https://www.robinwieruch.de/react-hooks-fetch-data/)
+
+License
+---
+
+© 2019 A [Phodal Huang](https://www.phodal.com)'s [Idea](http://github.com/phodal/ideas).  This code is distributed under the MIT license. See `LICENSE` in this directory.
