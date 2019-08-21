@@ -27,6 +27,7 @@ https://github.com/arackaf/customize-cra
  - [Official useContext](https://zh-hans.reactjs.org/docs/hooks-reference.html#usecontext)
  - [Replace Redux state with React Hooks and Context](https://itnext.io/replace-redux-state-with-react-hooks-and-context-7906e0fd5521)
  - [Multiple Context](https://stackoverflow.com/questions/54119268/how-to-use-react-hooks-context-with-multiple-values-for-providers), Code: https://codesandbox.io/s/zk58011yol
+ - [Sebastian 关于 React Hooks 的解释](https://github.com/reactjs/rfcs/pull/68#issuecomment-439314884) : 中文版：[React 作者关于 Hooks 的深度 issue，值得你阅读](https://juejin.im/post/5c238c2ef265da611510d6ff)
 
 Dan Abramov's Hook Articles
 
@@ -39,6 +40,24 @@ Dan Abramov's Hook Articles (Chinese Version)
  - [为什么 'XX' 不是一个 Hooks API?](https://overreacted.io/zh-hans/why-isnt-x-a-hook/)
  - [使用 React Hooks 声明 setInterval](https://overreacted.io/zh-hans/making-setinterval-declarative-with-react-hooks/)
  - [为什么顺序调用对 React Hooks 很重要？](https://overreacted.io/zh-hans/why-do-hooks-rely-on-call-order/)
+
+Others
+
+ - [React hooks：它不是一种魔法，只是一个数组——使用图表揭秘提案规则](https://juejin.im/post/5bfa929551882524cb6f413b)
+
+### Test
+
+#### Library
+
+ - [react-test-renderer](https://reactjs.org/docs/test-renderer.html)
+ - [fetch-mock](http://www.wheresrhys.co.uk/fetch-mock/) or [jest-mock-axios](https://github.com/knee-cola/jest-mock-axios#readme)
+ - [@testing-library/react-hooks](https://github.com/testing-library/react-hooks-testing-library#readme) Simple and complete React hooks testing utilities that encourage good testing practices. 
+
+#### Hooks test
+
+ - [如何测试 React Hooks ？](https://juejin.im/post/5c321bdd6fb9a049f3624142) 英文版：[React Hooks: What's going to happen to my tests?](https://kentcdodds.com/blog/react-hooks-whats-going-to-happen-to-my-tests)
+ - [A quick guide to testing React Hooks](https://blog.logrocket.com/a-quick-guide-to-testing-react-hooks-fa584c415407/)  
+ - [Testing custom react hooks that use fetch (or other async behaviour)](https://medium.com/@AndreCalvo/testing-custom-react-hooks-that-use-fetch-or-other-async-functions-5fb128d07f53)
 
 ### Form 
 
@@ -66,7 +85,6 @@ Dan Abramov's Hook Articles (Chinese Version)
  - SEO: [react-helmet](https://github.com/nfl/react-helmet) : A document head manager for React
  - Animate: [react-motion](https://github.com/chenglou/react-motion) : A spring that solves your animation problems.
  - CSS in JS: [styled-component](https://github.com/styled-components/styled-components)
- 
 
 ### Code Generator
 
