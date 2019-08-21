@@ -28,6 +28,18 @@ https://github.com/arackaf/customize-cra
  - [Replace Redux state with React Hooks and Context](https://itnext.io/replace-redux-state-with-react-hooks-and-context-7906e0fd5521)
  - [Multiple Context](https://stackoverflow.com/questions/54119268/how-to-use-react-hooks-context-with-multiple-values-for-providers), Code: https://codesandbox.io/s/zk58011yol
 
+Dan Abramov's Hook Articles
+
+ - [Why Isn’t X a Hook?](https://overreacted.io/why-isnt-x-a-hook/)
+ - [Making setInterval Declarative with React Hooks](https://overreacted.io/making-setinterval-declarative-with-react-hooks/)
+ - [Why Do React Hooks Rely on Call Order?](https://overreacted.io/why-do-hooks-rely-on-call-order/)
+ 
+Dan Abramov's Hook Articles (Chinese Version)
+
+ - [为什么 'XX' 不是一个 Hooks API?](https://overreacted.io/zh-hans/why-isnt-x-a-hook/)
+ - [使用 React Hooks 声明 setInterval](https://overreacted.io/zh-hans/making-setinterval-declarative-with-react-hooks/)
+ - [为什么顺序调用对 React Hooks 很重要？](https://overreacted.io/zh-hans/why-do-hooks-rely-on-call-order/)
+
 ### Form 
 
  - [Form Validation with React Hooks](https://itnext.io/form-validation-with-react-hooks-ab0dbba23b9f)
@@ -36,6 +48,10 @@ https://github.com/arackaf/customize-cra
 ### 中文（Chinese)
 
  - [在小程序中使用 React with Hooks](https://github.com/remaxjs/remax/issues/1)，可以用于造轮子
+
+### Boilerplate
+
+ - [react-demo](https://github.com/yangmingshan/react-demo)
 
 ## Library
 
